@@ -15,7 +15,7 @@ Developed by : **KABELAN G K**
 Reg no : **212224110027**
 
 ### Client 
-```
+```python
 import socket
 s=socket.socket()
 s.connect(('localhost',8001))
@@ -25,7 +25,7 @@ while True:
     print("Server > ",s.recv(1024).decode())
 ```
 ### Server
-```
+```python
 import socket
 s=socket.socket()
 s.bind(('localhost',8001))
